@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotstar</title>
+    <link rel="stylesheet" href="hotstar.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="logo">
+      <img
+      alt="Disney+ Hotstar"
+      src="https://img.hotstar.com/image/upload/v1656431456/web-images/logo-d-plus.svg"
+      class=""
+      aria-hidden="false"
+      style="padding-left: 20px;"
+      />
+      <input
+      type="text"
+      placeholder="Movies, shows and more"
+      id="searchBar"
+      oninput="debounce(showMovies,3000)"
+      />
+    </div>
+    <nav id="navbar">
+      <div id="My_space">
+        <img
+        src="https://img1.hotstarext.com/image/upload/w_201,h_200,c_fill/v1/feature/profile/38.png"
+        decoding="async"
+        loading="lazy"
+        alt="Avatar"
+        style="object-fit: cover; width: 30px; height: 30px;"
+        />
+      </div>
+      
+      <div id="Search">
+        <i class="fa-solid fa-magnifying-glass" style="color: #4676c8; margin-top: 10px;"></i>
+      </div>
+      <br /><br />
+      <div id="Home"><i class="fa-solid fa-house"></i></div>
+      <br /><br />
+      <div id="Tv"><i class="fa-solid fa-tv"></i></div>
+      <br /><br />
+      <div id="Movies"><i class="fa-solid fa-video"></i></div>
+      <br /><br />
+      <div id="Sports"><i class="fa-solid fa-volleyball"></i></div>
+    
+    </nav>
+    <div id="grid">
+      <div id="card"></div>
+      <h2 style="margin-left: 100px; color: aliceblue; ">Latest Movies</h2>
+      <div id="movie"></div>
+    </div>
+  </body>
+  </html>
+  <script src="index.js"></script>
+  
+  

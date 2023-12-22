@@ -1,0 +1,87 @@
+body{
+    padding: 0%;
+    margin: 0;
+    background-color: #16181F;
+    
+    
+}
+#logo{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    /* margin-left: -300px; */
+    /* border: 2px solid red; */
+    /* width: 60%; */
+
+    #logo ,img{
+        width: auto;
+        height: 50px;  
+        margin-left:-15%;
+        
+    }
+}
+#searchBar{
+    width: 60%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(82, 82, 83);
+    
+    
+}
+
+#navbar{ 
+    margin-top: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    /* border: 2px solid red; */
+    width: 30px;
+    /* overflow: hidden; */
+    /* flex: 0 0 auto; */
+    /* position: fixed; */
+    
+}
+
+#card{
+    /* display: flex; */
+    width: 94%;
+    /* border: 2px solid rgb(244, 8, 8); */
+    /* height: 350px; */
+    margin-top: -24%;
+    margin-left: 90px;
+    margin-bottom: 100px;
+   
+    display: grid;
+        grid-template-columns: repeat(4, 20%);
+        column-gap: 5%;
+        gap: 3%;
+        height: max-content;
+
+
+}
+img{
+    width: 100%;
+    border-radius: 5px;
+    
+    
+    
+}
+#movie{
+    
+    width: 94%;
+  
+    margin-left: 90px;
+   
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    grid-row-gap: 25px;
+    gap: 3%; 
+    
+}
+
+
+
+nav:hover{
+    color: red;
+}
+
