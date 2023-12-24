@@ -47,7 +47,7 @@ body{
     width: 94%;
     /* border: 2px solid rgb(244, 8, 8); */
     /* height: 350px; */
-    margin-top: -24%;
+    margin-top: -20%;
     margin-left: 90px;
     margin-bottom: 100px;
    
@@ -71,7 +71,7 @@ img{
     width: 94%;
   
     margin-left: 90px;
-   
+    margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(4, 20%);
     grid-row-gap: 25px;
