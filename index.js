@@ -55,7 +55,7 @@ async function showMovies() {
       }
 
 
-  let url = `https://api.themoviedb.org/3/discover/movie?&api_key=8796761f365f22339c5a4afba8f4f14b&language=en-US&sort_by=popularity.desc&include_adult=true&include_video=false&page=2`
+  let url = `https://api.themoviedb.org/3/discover/movie?&api_key=8796761f365f22339c5a4afba8f4f14b&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=2`
 
  
 
